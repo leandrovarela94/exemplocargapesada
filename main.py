@@ -20,4 +20,4 @@ class Msg(BaseModel):
 
 @app.get("/health")
 def get_health():
-    return "APLICAÇÃO RODANDO"
+    return {"titulos":"Foi indicado pela FIFA ao seleto grupo dos maiores clubes do século XX. Dentre seus principais títulos no futebol estão: 21 Campeonatos Cariocas, quatro Torneios Rio-São Paulo, duas Taças dos Campeões Estaduais Rio-São Paulo, dois Campeonatos Brasileiros e uma Copa CONMEBOL (precursora da atual Copa Sul-Americana)."}
